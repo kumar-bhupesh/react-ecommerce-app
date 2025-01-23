@@ -1,0 +1,146 @@
+.cart-page {
+  padding-block: 12px;
+}
+
+.cart-page__empty-cart-message {
+  text-align: center;
+  margin-block: 30px;
+}
+
+.cart-page__empty-cart-icon {
+  font-size: 100px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.cart-page__empty-cart-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.cart-page__empty-cart-description {
+  color: #888;
+  font-size: 16px;
+}
+
+.cart-page__cart-item {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 0px 0px 12px;
+}
+
+.cart-page__product-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.cart-page__product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cart-page__product-name {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.cart-page__product-category {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.cart-page__price {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.cart-page__price-discounted {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.cart-page__price-original {
+  font-size: 18px;
+  color: #888;
+  text-decoration: line-through;
+}
+
+.cart-page__discount-percentage {
+  font-size: 16px;
+  font-weight: 500;
+  color: green;
+  text-transform: uppercase;
+}
+
+.cart-page__quantity-controls-container {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.cart-page__delete-quantity {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f44336;
+  margin-left: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cart-page__delete-quantity:hover {
+  color: #c62828;
+}
+
+.order-summary {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.order-summary__title {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.order-summary__price-detail-row,
+.order-summary__total {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 767.98px) {
+  .cart-page__empty-cart-title {
+    font-size: 20px;
+  }
+
+  .cart-page__empty-cart-icon {
+    font-size: 80px;
+  }
+
+  .cart-page__product-name {
+    font-size: 1rem;
+  }
+
+  .cart-page__price-discounted {
+    font-size: 16px;
+  }
+
+  .cart-page__price-original {
+    font-size: 16px;
+  }
+
+  .cart-page__discount-percentage {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,27 @@
+.service-highlights {
+  padding: 50px 0;
+}
+
+.service-highlights__card {
+  text-align: center;
+  height: 100%;
+  padding: 16px;
+  border: 6px;
+}
+
+.service-highlights__card-icon {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.service-highlights__card-title {
+  font-size: 24px;
+  color: #333;
+}
+
+@media (max-width: 767.98px) {
+  .service-highlights__card-title {
+    font-size: 20px;
+  }
+}

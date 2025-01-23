@@ -1,0 +1,94 @@
+.product-card {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s ease;
+  width: 100%;
+  height: 100%;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card__wishlist-icon {
+  display: none;
+  position: absolute !important;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.2rem;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.product-card:hover .product-card__wishlist-icon {
+  display: block;
+}
+
+.product-card__img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+  cursor: pointer;
+}
+
+.product-card__content {
+  padding: 12px;
+}
+
+.product-card__title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.product-card__title:hover {
+  color: #007bff;
+}
+
+.product-card__rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-card__rating-stars {
+  color: #ffd700;
+}
+
+.product-card__rating-count {
+  color: grey;
+  margin-left: 8px;
+}
+
+.product-card__price-details {
+  margin-bottom: 16px;
+}
+
+.product-card__discounted-price {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.product-card__original-price {
+  font-size: 16px;
+  color: grey;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.product-card__discount-percentage {
+  font-size: 14px;
+  font-weight: 500;
+  color: green;
+  text-transform: uppercase;
+  margin-left: 8px;
+}
